@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8080;
 
 //app listening
 app.get("/", (req, res) => {
-  res.send("Server is running.");
+  res.send("Server is running.hey");
 });
 
 app.listen(PORT, () => {
